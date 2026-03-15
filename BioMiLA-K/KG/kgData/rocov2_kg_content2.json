@@ -1,0 +1,2532 @@
+[
+  {
+    "qid": 0,
+    "image_name": "ROCOv2_2023_train_000001",
+    "qa_instruct": {
+      "caption": "Head CT demonstrating left parotiditis.",
+      "concepts": "X-Ray Computed Tomography",
+      "entities": [
+        {
+          "entity": "Head CT",
+          "type": "Imaging Technique",
+          "description": "Computed tomography of the head."
+        },
+        {
+          "entity": "parotiditis",
+          "type": "Disease/Symptom",
+          "description": "Inflammation of the parotid gland."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Head CT",
+          "relation": "Demonstrates",
+          "entity2": "parotiditis"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 1,
+    "image_name": "ROCOv2_2023_train_000002",
+    "qa_instruct": {
+      "caption": "Acquired renal cysts in end-stage renal failure: 16-year-old girl with Alport syndrome and peritoneal dialysis from the age of 2 years",
+      "concepts": "Ultrasonography",
+      "entities": [
+        {
+          "entity": "renal cysts",
+          "type": "Pathological Phenomenon",
+          "description": "Fluid-filled sacs that develop in the kidneys."
+        },
+        {
+          "entity": "end-stage renal failure",
+          "type": "Disease/Symptom",
+          "description": "The final stage of chronic kidney disease, where the kidneys have lost most of their function."
+        },
+        {
+          "entity": "Alport syndrome",
+          "type": "Disease/Symptom",
+          "description": "A genetic condition that affects the kidneys, hearing, and eyes."
+        },
+        {
+          "entity": "peritoneal dialysis",
+          "type": "Therapeutic Method",
+          "description": "A method of removing waste products from the blood using the peritoneum as a filter."
+        },
+        {
+          "entity": "Ultrasonography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique that uses sound waves to visualize internal body structures."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "renal cysts",
+          "relation": "associated with",
+          "entity2": "end-stage renal failure"
+        },
+        {
+          "entity1": "peritoneal dialysis",
+          "relation": "treatment for",
+          "entity2": "end-stage renal failure"
+        },
+        {
+          "entity1": "Ultrasonography",
+          "relation": "used to visualize",
+          "entity2": "renal cysts"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 2,
+    "image_name": "ROCOv2_2023_train_000003",
+    "qa_instruct": {
+      "caption": "Computed tomography of the chest showing the right breast nodule with irregular margins",
+      "concepts": "X-Ray Computed Tomography; Chest; Irregular",
+      "entities": [
+        {
+          "entity": "Computed tomography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using X-rays to create detailed cross-sectional images."
+        },
+        {
+          "entity": "Chest",
+          "type": "Anatomical Structure",
+          "description": "The region of the body containing the heart and lungs."
+        },
+        {
+          "entity": "Right breast nodule",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal mass or growth in the right breast."
+        },
+        {
+          "entity": "Irregular margins",
+          "type": "Pathological Phenomenon",
+          "description": "The edges of the nodule are not smooth or well-defined."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Computed tomography",
+          "relation": "Identifies",
+          "entity2": "Right breast nodule"
+        },
+        {
+          "entity1": "Right breast nodule",
+          "relation": "Has Feature",
+          "entity2": "Irregular margins"
+        },
+        {
+          "entity1": "Computed tomography",
+          "relation": "Located in",
+          "entity2": "Chest"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 3,
+    "image_name": "ROCOv2_2023_train_000004",
+    "qa_instruct": {
+      "caption": "Lateral view of the sacrum showing the low contrast between bone and soft tissue.",
+      "concepts": "angiogram; Sacral Region; soft tissue",
+      "entities": [
+        {
+          "entity": "Sacrum",
+          "type": "Anatomical Structure",
+          "description": "A bone at the base of the spine."
+        },
+        {
+          "entity": "soft tissue",
+          "type": "Anatomical Structure",
+          "description": "Tissues that are not bone or cartilage."
+        },
+        {
+          "entity": "angiogram",
+          "type": "Imaging Technique",
+          "description": "An imaging technique used to visualize blood vessels."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Sacrum",
+          "relation": "has contrast with",
+          "entity2": "soft tissue"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 4,
+    "image_name": "ROCOv2_2023_train_000005",
+    "qa_instruct": {
+      "caption": "Thoracic CT scan showing perihilar pulmonary lymphadenomegaly",
+      "concepts": "X-Ray Computed Tomography; Chest; Lymphadenopathy",
+      "entities": [
+        {
+          "entity": "Thoracic CT scan",
+          "type": "Imaging Technique",
+          "description": "A computed tomography scan of the chest area."
+        },
+        {
+          "entity": "perihilar pulmonary lymphadenomegaly",
+          "type": "Pathological Phenomenon",
+          "description": "Enlargement of lymph nodes in the perihilar region of the lungs."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Thoracic CT scan",
+          "relation": "Identifies",
+          "entity2": "perihilar pulmonary lymphadenomegaly"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 5,
+    "image_name": "ROCOv2_2023_train_000006",
+    "qa_instruct": {
+      "caption": "5.1 cm x 3.4 cm x 4 cm multiloculated hepatic abscess in the inferior posterior aspect of the right lobe",
+      "concepts": "X-Ray Computed Tomography",
+      "entities": [
+        {
+          "entity": "multiloculated hepatic abscess",
+          "type": "Pathological Phenomenon",
+          "description": "An abscess in the liver with multiple compartments."
+        },
+        {
+          "entity": "right lobe",
+          "type": "Anatomical Structure",
+          "description": "The right part of the liver."
+        },
+        {
+          "entity": "X-Ray Computed Tomography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using X-rays to create cross-sectional images."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "multiloculated hepatic abscess",
+          "relation": "located in",
+          "entity2": "right lobe"
+        },
+        {
+          "entity1": "X-Ray Computed Tomography",
+          "relation": "Identifies",
+          "entity2": "multiloculated hepatic abscess"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 6,
+    "image_name": "ROCOv2_2023_train_000007",
+    "qa_instruct": {
+      "caption": "Repeat CT abdomen and pelvis showing resolution of collection with no new abscess",
+      "concepts": "X-Ray Computed Tomography; Pelvis; Acute abscess",
+      "entities": [
+        {
+          "entity": "CT abdomen and pelvis",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using X-rays to visualize the abdomen and pelvis."
+        },
+        {
+          "entity": "collection",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal accumulation of fluid or other substances in the body."
+        },
+        {
+          "entity": "abscess",
+          "type": "Pathological Phenomenon",
+          "description": "A localized collection of pus in tissues."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "CT abdomen and pelvis",
+          "relation": "Identifies",
+          "entity2": "collection"
+        },
+        {
+          "entity1": "collection",
+          "relation": "Associated with",
+          "entity2": "abscess"
+        },
+        {
+          "entity1": "CT abdomen and pelvis",
+          "relation": "Shows",
+          "entity2": "resolution of collection"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 7,
+    "image_name": "ROCOv2_2023_train_000008",
+    "qa_instruct": {
+      "caption": "Computed tomography of the head on Day 0 shows mild to moderate hydrocephalus with the presence of a right posterior parietal VP shunt tube that traverses the right lateral ventricle.",
+      "concepts": "X-Ray Computed Tomography; Ventriculoperitoneal catheter; RIght lateral ventricle structure.",
+      "entities": [
+        {
+          "entity": "Computed tomography",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using X-rays to create detailed images of the head."
+        },
+        {
+          "entity": "hydrocephalus",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal buildup of fluid in the brain."
+        },
+        {
+          "entity": "VP shunt tube",
+          "type": "Medical Tool/Device",
+          "description": "A tube used to drain excess fluid from the brain to the peritoneal cavity."
+        },
+        {
+          "entity": "right lateral ventricle",
+          "type": "Anatomical Structure",
+          "description": "One of the fluid-filled cavities in the brain."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Computed tomography",
+          "relation": "Identifies",
+          "entity2": "hydrocephalus"
+        },
+        {
+          "entity1": "VP shunt tube",
+          "relation": "Traverses",
+          "entity2": "right lateral ventricle"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 8,
+    "image_name": "ROCOv2_2023_train_000009",
+    "qa_instruct": {
+      "caption": "Computed tomography of the head on Day 22 shows dilated left lateral ventricle with parenchymal hemorrhage in the right frontal lobe (black arrows) and intraventricular hemorrhage (white arrow) despite ventriculostomy tubes.",
+      "concepts": "X-Ray Computed Tomography; Left lateral ventricle structure; Structure of parenchyma of lung; Hemorrhage; Right frontal lobe structure; Ventricular hemorrhage.",
+      "entities": [
+        {
+          "entity": "Computed tomography",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using X-rays to create detailed images of the head."
+        },
+        {
+          "entity": "Left lateral ventricle",
+          "type": "Anatomical Structure",
+          "description": "One of the fluid-filled cavities in the brain."
+        },
+        {
+          "entity": "Parenchymal hemorrhage",
+          "type": "Pathological Phenomenon",
+          "description": "Bleeding within the brain tissue."
+        },
+        {
+          "entity": "Right frontal lobe",
+          "type": "Anatomical Structure",
+          "description": "The front part of the brain's cerebral cortex."
+        },
+        {
+          "entity": "Intraventricular hemorrhage",
+          "type": "Pathological Phenomenon",
+          "description": "Bleeding into the ventricles of the brain."
+        },
+        {
+          "entity": "Ventriculostomy tubes",
+          "type": "Medical Tool/Device",
+          "description": "Tubes placed in the ventricles to drain fluid."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Computed tomography",
+          "relation": "Identifies",
+          "entity2": "Left lateral ventricle"
+        },
+        {
+          "entity1": "Computed tomography",
+          "relation": "Identifies",
+          "entity2": "Parenchymal hemorrhage"
+        },
+        {
+          "entity1": "Parenchymal hemorrhage",
+          "relation": "Located in",
+          "entity2": "Right frontal lobe"
+        },
+        {
+          "entity1": "Computed tomography",
+          "relation": "Identifies",
+          "entity2": "Intraventricular hemorrhage"
+        },
+        {
+          "entity1": "Left lateral ventricle",
+          "relation": "Shows",
+          "entity2": "dilated"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 9,
+    "image_name": "ROCOv2_2023_train_000010",
+    "qa_instruct": {
+      "caption": "Preop CT showing left orbital floor fracture",
+      "concepts": "X-Ray Computed Tomography",
+      "entities": [
+        {
+          "entity": "CT",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using X-rays to create detailed cross-sectional images."
+        },
+        {
+          "entity": "left orbital floor fracture",
+          "type": "Pathological Phenomenon",
+          "description": "A break in the bone forming the floor of the left eye socket."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "CT",
+          "relation": "Identifies",
+          "entity2": "left orbital floor fracture"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 10,
+    "image_name": "ROCOv2_2023_train_000011",
+    "qa_instruct": {
+      "caption": "Postop 22-month CT scan (sagittal): Posteriorly the graft seated in a sound bone,",
+      "concepts": "X-Ray Computed Tomography",
+      "entities": [
+        {
+          "entity": "CT scan",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using X-rays to create detailed images of the body."
+        },
+        {
+          "entity": "graft",
+          "type": "Medical Tool/Device",
+          "description": "A tissue or organ transplanted from one part of the body to another or from one person to another."
+        },
+        {
+          "entity": "bone",
+          "type": "Anatomical Structure",
+          "description": "A rigid organ that forms part of the skeleton."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "CT scan",
+          "relation": "Visualizes",
+          "entity2": "graft"
+        },
+        {
+          "entity1": "graft",
+          "relation": "Seated in",
+          "entity2": "bone"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 11,
+    "image_name": "ROCOv2_2023_train_000012",
+    "qa_instruct": {
+      "caption": "Enhanced magnetic resonance imaging of head revealed bilateral cerebral and cerebellar hemispheres abnormal meningeal enhancement.",
+      "concepts": "Magnetic Resonance Imaging; Cerebellar hemisphere structure.",
+      "entities": [
+        {
+          "entity": "Enhanced magnetic resonance imaging",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using magnetic fields and radio waves to visualize the head with contrast enhancement."
+        },
+        {
+          "entity": "cerebral hemispheres",
+          "type": "Anatomical Structure",
+          "description": "The two halves of the cerebrum, the largest part of the brain."
+        },
+        {
+          "entity": "cerebellar hemispheres",
+          "type": "Anatomical Structure",
+          "description": "The two lateral lobes of the cerebellum, responsible for motor control and coordination."
+        },
+        {
+          "entity": "meningeal enhancement",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal increased visibility of the meninges, the membranes surrounding the brain and spinal cord, on imaging."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Enhanced magnetic resonance imaging",
+          "relation": "Reveals",
+          "entity2": "meningeal enhancement"
+        },
+        {
+          "entity1": "meningeal enhancement",
+          "relation": "Located in",
+          "entity2": "cerebral hemispheres"
+        },
+        {
+          "entity1": "meningeal enhancement",
+          "relation": "Located in",
+          "entity2": "cerebellar hemispheres"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 12,
+    "image_name": "ROCOv2_2023_train_000013",
+    "qa_instruct": {
+      "caption": "Enhanced magnetic resonance imaging of spinal cord delineated multiple enhancement nodules in spinal cord, cauda equina, and cristae membrane (arrow).",
+      "concepts": "Magnetic Resonance Imaging; Nodule; Spinal Cord; Cauda Equina",
+      "entities": [
+        {
+          "entity": "Magnetic Resonance Imaging",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique that uses magnetic fields and radio waves to create detailed images of the organs and tissues in the body."
+        },
+        {
+          "entity": "Spinal cord",
+          "type": "Anatomical Structure",
+          "description": "The cylindrical bundle of nerve fibers and associated tissue that is enclosed in the spine and connects nearly all parts of the body to the brain."
+        },
+        {
+          "entity": "Enhancement nodules",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal growths or masses that show increased signal intensity on contrast-enhanced imaging."
+        },
+        {
+          "entity": "Cauda equina",
+          "type": "Anatomical Structure",
+          "description": "A bundle of spinal nerves and spinal nerve rootlets consisting of the second through fifth lumbar nerve pairs, the sacral nerve pairs, and the coccygeal nerve, all of which originate in the conus medullaris of the spinal cord."
+        },
+        {
+          "entity": "Cristae membrane",
+          "type": "Anatomical Structure",
+          "description": "A membrane forming a fold or ridge, specifically the inner membrane of a mitochondrion."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Magnetic Resonance Imaging",
+          "relation": "Identifies",
+          "entity2": "Enhancement nodules"
+        },
+        {
+          "entity1": "Enhancement nodules",
+          "relation": "Located in",
+          "entity2": "Spinal cord"
+        },
+        {
+          "entity1": "Enhancement nodules",
+          "relation": "Located in",
+          "entity2": "Cauda equina"
+        },
+        {
+          "entity1": "Enhancement nodules",
+          "relation": "Located in",
+          "entity2": "Cristae membrane"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 13,
+    "image_name": "ROCOv2_2023_train_000014",
+    "qa_instruct": {
+      "caption": "Sagittal T2-SPAIR image illustrating the \"fluid sign (arrow)\" in the acute osteoporotic compression fracture.",
+      "concepts": "Magnetic Resonance Imaging; Fluid behavior",
+      "entities": [
+        {
+          "entity": "Sagittal T2-SPAIR image",
+          "type": "Imaging Technique",
+          "description": "A type of Magnetic Resonance Imaging (MRI) sequence used to visualize anatomical structures in a sagittal plane, with fat suppression."
+        },
+        {
+          "entity": "fluid sign",
+          "type": "Pathological Phenomenon",
+          "description": "An indicator of fluid accumulation, often seen in fractures or other pathological conditions."
+        },
+        {
+          "entity": "acute osteoporotic compression fracture",
+          "type": "Pathological Phenomenon",
+          "description": "A recent fracture caused by osteoporosis, where the bone collapses under pressure."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Sagittal T2-SPAIR image",
+          "relation": "Illustrates",
+          "entity2": "fluid sign"
+        },
+        {
+          "entity1": "fluid sign",
+          "relation": "Located in",
+          "entity2": "acute osteoporotic compression fracture"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 14,
+    "image_name": "ROCOv2_2023_train_000015",
+    "qa_instruct": {
+      "caption": "CT demonstrating partially obstructed airway.CT: computed tomography.",
+      "concepts": "X-Ray Computed Tomography",
+      "entities": [
+        {
+          "entity": "CT",
+          "type": "Imaging Technique",
+          "description": "Computed tomography, an imaging technique using X-rays."
+        },
+        {
+          "entity": "partially obstructed airway",
+          "type": "Pathological Phenomenon",
+          "description": "A condition where the airway is partially blocked."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "CT",
+          "relation": "Demonstrates",
+          "entity2": "partially obstructed airway"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 15,
+    "image_name": "ROCOv2_2023_train_000016",
+    "qa_instruct": {
+      "caption": "CT demonstrating the minimum diameter of the patient's airway.CT: computed tomography.This CT image demonstrates the minimum luminal airway dimension found which was 8 mm x 3 mm. ",
+      "concepts": "X-Ray Computed Tomography; Bronchi",
+      "entities": [
+        {
+          "entity": "CT",
+          "type": "Imaging Technique",
+          "description": "Computed tomography, an imaging technique using X-rays to create detailed images of the body."
+        },
+        {
+          "entity": "airway",
+          "type": "Anatomical Structure",
+          "description": "The passage through which air travels to the lungs."
+        },
+        {
+          "entity": "minimum luminal airway dimension",
+          "type": "Pathological Phenomenon",
+          "description": "The smallest measurement of the airway's inner space."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "CT",
+          "relation": "Demonstrates",
+          "entity2": "minimum luminal airway dimension"
+        },
+        {
+          "entity1": "minimum luminal airway dimension",
+          "relation": "Located in",
+          "entity2": "airway"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 16,
+    "image_name": "ROCOv2_2023_train_000017",
+    "qa_instruct": {
+      "caption": "Strawberry skull.",
+      "concepts": "Ultrasonography; Bone structure of cranium.",
+      "entities": [
+        {
+          "entity": "Strawberry skull",
+          "type": "Pathological Phenomenon",
+          "description": "A skull malformation characterized by a strawberry-like shape."
+        },
+        {
+          "entity": "Ultrasonography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using sound waves to visualize internal structures."
+        },
+        {
+          "entity": "Bone structure of cranium",
+          "type": "Anatomical Structure",
+          "description": "The bony framework of the skull."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Ultrasonography",
+          "relation": "Evaluates",
+          "entity2": "Bone structure of cranium"
+        },
+        {
+          "entity1": "Bone structure of cranium",
+          "relation": "Exhibits",
+          "entity2": "Strawberry skull"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 17,
+    "image_name": "ROCOv2_2023_train_000018",
+    "qa_instruct": {
+      "caption": "Hypotelorism.",
+      "concepts": "Ultrasonography.",
+      "entities": [
+        {
+          "entity": "Hypotelorism",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormally decreased distance between two organs or parts, often referring to the eyes."
+        },
+        {
+          "entity": "Ultrasonography",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using ultrasound waves."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Ultrasonography",
+          "relation": "Identifies",
+          "entity2": "Hypotelorism"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 18,
+    "image_name": "ROCOv2_2023_train_000019",
+    "qa_instruct": {
+      "caption": "Low set ears.",
+      "concepts": "Ultrasonography.",
+      "entities": [
+        {
+          "entity": "Low set ears",
+          "type": "Anatomical Structure",
+          "description": "Ears positioned lower than normal on the head."
+        },
+        {
+          "entity": "Ultrasonography",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using ultrasound waves."
+        }
+      ],
+      "relations": []
+    }
+  },
+  {
+    "qid": 19,
+    "image_name": "ROCOv2_2023_train_000020",
+    "qa_instruct": {
+      "caption": "Atrial septal defect.",
+      "concepts": "Ultrasonography; Atrial Septal Defects.",
+      "entities": [
+        {
+          "entity": "Atrial septal defect",
+          "type": "Pathological Phenomenon",
+          "description": "A congenital heart defect characterized by a hole in the septum between the heart's upper chambers."
+        },
+        {
+          "entity": "Ultrasonography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using sound waves to visualize internal body structures."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Ultrasonography",
+          "relation": "Detects",
+          "entity2": "Atrial septal defect"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 20,
+    "image_name": "ROCOv2_2023_train_000021",
+    "qa_instruct": {
+      "caption": "Single umbilical artery seen on axial section.",
+      "concepts": "Ultrasonography.",
+      "entities": [
+        {
+          "entity": "Single umbilical artery",
+          "type": "Anatomical Structure",
+          "description": "A condition where there is only one umbilical artery instead of the usual two."
+        },
+        {
+          "entity": "Ultrasonography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using ultrasound waves to visualize internal body structures."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Ultrasonography",
+          "relation": "Identifies",
+          "entity2": "Single umbilical artery"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 21,
+    "image_name": "ROCOv2_2023_train_000022",
+    "qa_instruct": {
+      "caption": "Abdominopelvic ultrasound scan showed ectopic kidneys at the hemi-pelvis, fused in their upper poles, normal size and texture of the kidneys with normal corticomedullary differentiation, no stones or obstructive changes,",
+      "concepts": "Ultrasonography; Ectopic kidney; Pelvis; Kidney; Calculi; Obstructed",
+      "entities": [
+        {
+          "entity": "Abdominopelvic ultrasound scan",
+          "type": "Imaging Technique",
+          "description": "An ultrasound imaging technique used to visualize the abdomen and pelvic region."
+        },
+        {
+          "entity": "Ectopic kidneys",
+          "type": "Anatomical Structure",
+          "description": "Kidneys located in an abnormal anatomical position."
+        },
+        {
+          "entity": "Pelvis",
+          "type": "Anatomical Structure",
+          "description": "The lower part of the abdomen located between the hip bones."
+        },
+        {
+          "entity": "Kidneys",
+          "type": "Anatomical Structure",
+          "description": "Organs responsible for filtering waste from the blood."
+        },
+        {
+          "entity": "Corticomedullary differentiation",
+          "type": "Anatomical Structure",
+          "description": "The distinct layers of the kidney, cortex and medulla."
+        },
+        {
+          "entity": "Stones",
+          "type": "Pathological Phenomenon",
+          "description": "Solid masses formed in the kidney or urinary tract."
+        },
+        {
+          "entity": "Obstructive changes",
+          "type": "Pathological Phenomenon",
+          "description": "Blockage or narrowing of a passage in the body."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Abdominopelvic ultrasound scan",
+          "relation": "Identifies",
+          "entity2": "Ectopic kidneys"
+        },
+        {
+          "entity1": "Ectopic kidneys",
+          "relation": "Located at",
+          "entity2": "Pelvis"
+        },
+        {
+          "entity1": "Kidneys",
+          "relation": "Has",
+          "entity2": "Corticomedullary differentiation"
+        },
+        {
+          "entity1": "Kidneys",
+          "relation": "Has no",
+          "entity2": "Stones"
+        },
+        {
+          "entity1": "Kidneys",
+          "relation": "Has no",
+          "entity2": "Obstructive changes"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 22,
+    "image_name": "ROCOv2_2023_train_000023",
+    "qa_instruct": {
+      "caption": "Computed tomography urography. The right kidney is ectopically placed in the pelvis, measures 9.6 cm bipolar length, and is medially and inferiorly faced. The left kidney is also ectopically placed in the pelvis, measures 9.3 cm in bipolar length, is mal-rotated as the pelvis faces upward and laterally, both kidneys are partially fused at their upper poles,",
+      "concepts": "X-Ray Computed Tomography; Right kidney; Pelvis; Left kidney; Both kidneys",
+      "entities": [
+        {
+          "entity": "Computed tomography urography",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using CT to visualize the urinary tract."
+        },
+        {
+          "entity": "Right kidney",
+          "type": "Anatomical Structure",
+          "description": "The right kidney, an organ of the urinary system."
+        },
+        {
+          "entity": "Pelvis",
+          "type": "Anatomical Structure",
+          "description": "The bony structure at the base of the spine."
+        },
+        {
+          "entity": "Left kidney",
+          "type": "Anatomical Structure",
+          "description": "The left kidney, an organ of the urinary system."
+        },
+        {
+          "entity": "Ectopically placed",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal positioning of an organ."
+        },
+        {
+          "entity": "Mal-rotated",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal rotation of an organ."
+        },
+        {
+          "entity": "Fused",
+          "type": "Pathological Phenomenon",
+          "description": "The joining of two separate structures."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Right kidney",
+          "relation": "Located in",
+          "entity2": "Pelvis"
+        },
+        {
+          "entity1": "Right kidney",
+          "relation": "Is",
+          "entity2": "Ectopically placed"
+        },
+        {
+          "entity1": "Left kidney",
+          "relation": "Located in",
+          "entity2": "Pelvis"
+        },
+        {
+          "entity1": "Left kidney",
+          "relation": "Is",
+          "entity2": "Ectopically placed"
+        },
+        {
+          "entity1": "Left kidney",
+          "relation": "Is",
+          "entity2": "Mal-rotated"
+        },
+        {
+          "entity1": "Right kidney",
+          "relation": "Partially",
+          "entity2": "Fused"
+        },
+        {
+          "entity1": "Left kidney",
+          "relation": "Partially",
+          "entity2": "Fused"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 23,
+    "image_name": "ROCOv2_2023_train_000024",
+    "qa_instruct": {
+      "caption": "Left coronary angiography showing the presence of two coronary arteriovenous fistulas (CAFs), originating from the left anterior descending (LAD) and circumflex (Cx) coronary arteries draining into the pulmonary artery",
+      "concepts": "angiogram; Heart; Arteriovenous fistula; Anterior descending branch of left coronary artery; Coronary artery; Pulmonary artery structure.",
+      "entities": [
+        {
+          "entity": "Left coronary angiography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using contrast dye to visualize the left coronary arteries."
+        },
+        {
+          "entity": "coronary arteriovenous fistulas",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal connections between coronary arteries and veins."
+        },
+        {
+          "entity": "left anterior descending (LAD) coronary arteries",
+          "type": "Anatomical Structure",
+          "description": "A major branch of the left coronary artery."
+        },
+        {
+          "entity": "circumflex (Cx) coronary arteries",
+          "type": "Anatomical Structure",
+          "description": "A branch of the left coronary artery that curves around the heart."
+        },
+        {
+          "entity": "pulmonary artery",
+          "type": "Anatomical Structure",
+          "description": "The artery carrying blood from the heart to the lungs."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Left coronary angiography",
+          "relation": "Identifies",
+          "entity2": "coronary arteriovenous fistulas"
+        },
+        {
+          "entity1": "coronary arteriovenous fistulas",
+          "relation": "Originates from",
+          "entity2": "left anterior descending (LAD) coronary arteries"
+        },
+        {
+          "entity1": "coronary arteriovenous fistulas",
+          "relation": "Originates from",
+          "entity2": "circumflex (Cx) coronary arteries"
+        },
+        {
+          "entity1": "coronary arteriovenous fistulas",
+          "relation": "Drains into",
+          "entity2": "pulmonary artery"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 24,
+    "image_name": "ROCOv2_2023_train_000025",
+    "qa_instruct": {
+      "caption": "Right coronary angiography showing the presence of the right coronary sinus of Valsalva (RCSV) with a coronary arteriovenous fistula (CAFs) draining into the pulmonary artery",
+      "concepts": "angiogram; Entire right sinus of Valsalva; Heart; Arteriovenous fistula; Pulmonary artery structure.",
+      "entities": [
+        {
+          "entity": "Right coronary angiography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique used to visualize the right coronary arteries."
+        },
+        {
+          "entity": "Right coronary sinus of Valsalva (RCSV)",
+          "type": "Anatomical Structure",
+          "description": "The right sinus of Valsalva, a dilation in the wall of the aorta."
+        },
+        {
+          "entity": "Coronary arteriovenous fistula (CAFs)",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal connection between a coronary artery and a vein."
+        },
+        {
+          "entity": "Pulmonary artery",
+          "type": "Anatomical Structure",
+          "description": "The artery carrying blood from the heart to the lungs."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Right coronary angiography",
+          "relation": "Visualizes",
+          "entity2": "Right coronary sinus of Valsalva (RCSV)"
+        },
+        {
+          "entity1": "Right coronary sinus of Valsalva (RCSV)",
+          "relation": "Associated with",
+          "entity2": "Coronary arteriovenous fistula (CAFs)"
+        },
+        {
+          "entity1": "Coronary arteriovenous fistula (CAFs)",
+          "relation": "Drains into",
+          "entity2": "Pulmonary artery"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 25,
+    "image_name": "ROCOv2_2023_train_000026",
+    "qa_instruct": {
+      "caption": "Previous CT scan of abdomen showing two pseudocysts in the pancreatic tail (white arrows).",
+      "concepts": "X-Ray Computed Tomography; Pseudocyst; Tail of pancreas",
+      "entities": [
+        {
+          "entity": "CT scan",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using X-rays to create detailed images of the body."
+        },
+        {
+          "entity": "Pseudocyst",
+          "type": "Pathological Phenomenon",
+          "description": "A fluid-filled sac that forms in the pancreas or nearby tissues."
+        },
+        {
+          "entity": "pancreatic tail",
+          "type": "Anatomical Structure",
+          "description": "The distal portion of the pancreas."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "CT scan",
+          "relation": "Identifies",
+          "entity2": "Pseudocyst"
+        },
+        {
+          "entity1": "Pseudocyst",
+          "relation": "Located in",
+          "entity2": "pancreatic tail"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 26,
+    "image_name": "ROCOv2_2023_train_000027",
+    "qa_instruct": {
+      "caption": "New CTA of abdomen showing huge variegated hematoma (yellow arrows) suggesting recent hemorrhage.",
+      "concepts": "X-Ray Computed Tomography; Abdomen; Hematoma; Hemorrhage.",
+      "entities": [
+        {
+          "entity": "CTA",
+          "type": "Imaging Technique",
+          "description": "Computed Tomography Angiography, an imaging technique using CT to visualize blood vessels."
+        },
+        {
+          "entity": "Abdomen",
+          "type": "Anatomical Structure",
+          "description": "The region of the body between the thorax and pelvis."
+        },
+        {
+          "entity": "Hematoma",
+          "type": "Pathological Phenomenon",
+          "description": "A localized collection of blood outside the blood vessels."
+        },
+        {
+          "entity": "Hemorrhage",
+          "type": "Pathological Phenomenon",
+          "description": "The escape of blood from a ruptured blood vessel."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "CTA",
+          "relation": "Identifies",
+          "entity2": "Hematoma"
+        },
+        {
+          "entity1": "Hematoma",
+          "relation": "Suggests",
+          "entity2": "Hemorrhage"
+        },
+        {
+          "entity1": "CTA",
+          "relation": "Located in",
+          "entity2": "Abdomen"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 27,
+    "image_name": "ROCOv2_2023_train_000028",
+    "qa_instruct": {
+      "caption": "Chest CT scan revealed fibrosis within the irregular strip located in dorsal anasal segment of lower lobes.",
+      "concepts": "X-Ray Computed Tomography; Fibrosis; Irregular; Structure of left lower lobe of lung.",
+      "entities": [
+        {
+          "entity": "Chest CT scan",
+          "type": "Imaging Technique",
+          "description": "A computed tomography scan of the chest."
+        },
+        {
+          "entity": "fibrosis",
+          "type": "Pathological Phenomenon",
+          "description": "The formation of excess fibrous connective tissue in an organ or tissue."
+        },
+        {
+          "entity": "irregular strip",
+          "type": "Anatomical Structure",
+          "description": "An area with an uneven or non-uniform shape."
+        },
+        {
+          "entity": "dorsal anasal segment of lower lobes",
+          "type": "Anatomical Structure",
+          "description": "A specific region within the lower lobes of the lungs."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Chest CT scan",
+          "relation": "Revealed",
+          "entity2": "fibrosis"
+        },
+        {
+          "entity1": "fibrosis",
+          "relation": "Located within",
+          "entity2": "irregular strip"
+        },
+        {
+          "entity1": "irregular strip",
+          "relation": "Located in",
+          "entity2": "dorsal anasal segment of lower lobes"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 28,
+    "image_name": "ROCOv2_2023_train_000029",
+    "qa_instruct": {
+      "caption": "Coronal view of the intra-nasal foreign body.",
+      "concepts": "X-Ray Computed Tomography",
+      "entities": [
+        {
+          "entity": "intra-nasal foreign body",
+          "type": "Pathological Phenomenon",
+          "description": "A foreign object located within the nasal cavity."
+        },
+        {
+          "entity": "X-Ray Computed Tomography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using X-rays to create detailed cross-sectional images."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "X-Ray Computed Tomography",
+          "relation": "Identifies",
+          "entity2": "intra-nasal foreign body"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 29,
+    "image_name": "ROCOv2_2023_train_000030",
+    "qa_instruct": {
+      "caption": "Sagittal view of the calcified nasal packing.",
+      "concepts": "X-Ray Computed Tomography; Calcified nodule; Nose.",
+      "entities": [
+        {
+          "entity": "X-Ray Computed Tomography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using X-rays to create cross-sectional images."
+        },
+        {
+          "entity": "Calcified nasal packing",
+          "type": "Pathological Phenomenon",
+          "description": "Nasal packing material that has undergone calcification."
+        },
+        {
+          "entity": "Nose",
+          "type": "Anatomical Structure",
+          "description": "The organ of the face used for breathing and smelling."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "X-Ray Computed Tomography",
+          "relation": "Identifies",
+          "entity2": "Calcified nasal packing"
+        },
+        {
+          "entity1": "Calcified nasal packing",
+          "relation": "Located in",
+          "entity2": "Nose"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 30,
+    "image_name": "ROCOv2_2023_train_000031",
+    "qa_instruct": {
+      "caption": "Transverse view of the calcified foreign body. Extensive sinusitis of the right and left maxillary sinuses is evident.",
+      "concepts": "X-Ray Computed Tomography; Calcified nodule; Sinusitis; Left maxillary sinus structure.",
+      "entities": [
+        {
+          "entity": "Calcified foreign body",
+          "type": "Pathological Phenomenon",
+          "description": "A foreign object that has become hardened due to calcium deposits."
+        },
+        {
+          "entity": "Sinusitis",
+          "type": "Disease/Symptom",
+          "description": "Inflammation or swelling of the tissue lining the sinuses."
+        },
+        {
+          "entity": "right maxillary sinus",
+          "type": "Anatomical Structure",
+          "description": "One of the paranasal sinuses located in the cheekbone."
+        },
+        {
+          "entity": "left maxillary sinus",
+          "type": "Anatomical Structure",
+          "description": "One of the paranasal sinuses located in the cheekbone."
+        },
+        {
+          "entity": "X-Ray Computed Tomography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using X-rays to create detailed cross-sectional images of the body."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Calcified foreign body",
+          "relation": "Located in",
+          "entity2": "maxillary sinuses"
+        },
+        {
+          "entity1": "Sinusitis",
+          "relation": "Affects",
+          "entity2": "right maxillary sinus"
+        },
+        {
+          "entity1": "Sinusitis",
+          "relation": "Affects",
+          "entity2": "left maxillary sinus"
+        },
+        {
+          "entity1": "X-Ray Computed Tomography",
+          "relation": "Identifies",
+          "entity2": "Calcified foreign body"
+        },
+        {
+          "entity1": "X-Ray Computed Tomography",
+          "relation": "Identifies",
+          "entity2": "Sinusitis"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 31,
+    "image_name": "ROCOv2_2023_train_000032",
+    "qa_instruct": {
+      "caption": "Chest radiograph showing reticular opacities prominent in bilateral mid and lower zones.",
+      "concepts": "Plain x-ray; Chest; Postero-Anterior",
+      "entities": [
+        {
+          "entity": "Chest radiograph",
+          "type": "Imaging Technique",
+          "description": "An X-ray imaging technique used to visualize the chest."
+        },
+        {
+          "entity": "reticular opacities",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal patterns of increased density appearing as a network of lines on the radiograph."
+        },
+        {
+          "entity": "mid zones",
+          "type": "Anatomical Structure",
+          "description": "The middle regions of the lungs."
+        },
+        {
+          "entity": "lower zones",
+          "type": "Anatomical Structure",
+          "description": "The lower regions of the lungs."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Chest radiograph",
+          "relation": "Identifies",
+          "entity2": "reticular opacities"
+        },
+        {
+          "entity1": "reticular opacities",
+          "relation": "Located in",
+          "entity2": "mid zones"
+        },
+        {
+          "entity1": "reticular opacities",
+          "relation": "Located in",
+          "entity2": "lower zones"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 32,
+    "image_name": "ROCOv2_2023_train_000033",
+    "qa_instruct": {
+      "caption": "CT chest showing ground-glass opacities with bilateral minimal pleural effusion.",
+      "concepts": "X-Ray Computed Tomography; Pleural effusion disorder.",
+      "entities": [
+        {
+          "entity": "CT chest",
+          "type": "Imaging Technique",
+          "description": "Computed tomography of the chest."
+        },
+        {
+          "entity": "ground-glass opacities",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal hazy areas in the lung."
+        },
+        {
+          "entity": "pleural effusion",
+          "type": "Pathological Phenomenon",
+          "description": "Accumulation of fluid in the pleural space."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "CT chest",
+          "relation": "Identifies",
+          "entity2": "ground-glass opacities"
+        },
+        {
+          "entity1": "CT chest",
+          "relation": "Identifies",
+          "entity2": "pleural effusion"
+        },
+        {
+          "entity1": "ground-glass opacities",
+          "relation": "Co-occurs with",
+          "entity2": "pleural effusion"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 33,
+    "image_name": "ROCOv2_2023_train_000034",
+    "qa_instruct": {
+      "caption": "Follow up chest radiograph after 4 weeks showing radiological resolution.",
+      "concepts": "Plain x-ray; Chest; Postero-Anterior.",
+      "entities": [
+        {
+          "entity": "chest radiograph",
+          "type": "Imaging Technique",
+          "description": "An X-ray imaging technique used to visualize the chest."
+        },
+        {
+          "entity": "radiological resolution",
+          "type": "Pathological Phenomenon",
+          "description": "Improvement or disappearance of abnormal findings on imaging."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "chest radiograph",
+          "relation": "Shows",
+          "entity2": "radiological resolution"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 34,
+    "image_name": "ROCOv2_2023_train_000035",
+    "qa_instruct": {
+      "caption": "Coronary angiogram illustrating spasm in the LAD.",
+      "concepts": "angiogram; Anterior descending branch of left coronary artery.",
+      "entities": [
+        {
+          "entity": "Coronary angiogram",
+          "type": "Imaging Technique",
+          "description": "An imaging technique used to visualize the coronary arteries."
+        },
+        {
+          "entity": "spasm",
+          "type": "Pathological Phenomenon",
+          "description": "A sudden, involuntary contraction of a muscle or blood vessel."
+        },
+        {
+          "entity": "LAD",
+          "type": "Anatomical Structure",
+          "description": "Anterior descending branch of left coronary artery."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Coronary angiogram",
+          "relation": "Illustrates",
+          "entity2": "spasm"
+        },
+        {
+          "entity1": "spasm",
+          "relation": "Located in",
+          "entity2": "LAD"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 35,
+    "image_name": "ROCOv2_2023_train_000036",
+    "qa_instruct": {
+      "caption": "After administration of IV nitrates and resolution of the narrowing in the LAD.",
+      "concepts": "angiogram; Anterior descending branch of left coronary artery.",
+      "entities": [
+        {
+          "entity": "IV nitrates",
+          "type": "Therapeutic Method",
+          "description": "Intravenous administration of nitrates, a medication used to dilate blood vessels."
+        },
+        {
+          "entity": "narrowing",
+          "type": "Pathological Phenomenon",
+          "description": "A constriction or stenosis in a blood vessel."
+        },
+        {
+          "entity": "LAD",
+          "type": "Anatomical Structure",
+          "description": "Anterior descending branch of left coronary artery."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "IV nitrates",
+          "relation": "Treats",
+          "entity2": "narrowing"
+        },
+        {
+          "entity1": "narrowing",
+          "relation": "Located in",
+          "entity2": "LAD"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 36,
+    "image_name": "ROCOv2_2023_train_000037",
+    "qa_instruct": {
+      "caption": "Ventricular fibrillation.",
+      "concepts": "angiogram",
+      "entities": [
+        {
+          "entity": "Ventricular fibrillation",
+          "type": "Disease/Symptom",
+          "description": "A life-threatening heart rhythm disorder characterized by rapid, irregular contractions of the ventricles."
+        }
+      ],
+      "relations": []
+    }
+  },
+  {
+    "qid": 37,
+    "image_name": "ROCOv2_2023_train_000038",
+    "qa_instruct": {
+      "caption": "Abdominal CT. Abdominal CT shows a mass communicated with the small intestinal lumen (white arrow), and the outer and inner margins of the mass are irregular. A lymph node involvement is observed in the adjacent mesentery (red arrow),",
+      "concepts": "X-Ray Computed Tomography; Intestines, Small; Irregular; lymph nodes; Mesentery",
+      "entities": [
+        {
+          "entity": "Abdominal CT",
+          "type": "Imaging Technique",
+          "description": "A computed tomography scan of the abdomen."
+        },
+        {
+          "entity": "mass",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal growth or lump."
+        },
+        {
+          "entity": "small intestinal lumen",
+          "type": "Anatomical Structure",
+          "description": "The hollow space within the small intestine."
+        },
+        {
+          "entity": "irregular margins",
+          "type": "Pathological Phenomenon",
+          "description": "The edges of the mass are not smooth or uniform."
+        },
+        {
+          "entity": "lymph node involvement",
+          "type": "Pathological Phenomenon",
+          "description": "The presence of disease or abnormality in the lymph nodes."
+        },
+        {
+          "entity": "mesentery",
+          "type": "Anatomical Structure",
+          "description": "The membrane that attaches the intestines to the abdominal wall."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Abdominal CT",
+          "relation": "Identifies",
+          "entity2": "mass"
+        },
+        {
+          "entity1": "mass",
+          "relation": "Communicates with",
+          "entity2": "small intestinal lumen"
+        },
+        {
+          "entity1": "mass",
+          "relation": "Has",
+          "entity2": "irregular margins"
+        },
+        {
+          "entity1": "lymph node involvement",
+          "relation": "Located in",
+          "entity2": "mesentery"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 38,
+    "image_name": "ROCOv2_2023_train_000039",
+    "qa_instruct": {
+      "caption": "Abdominal CT. After enhancement, abdominal CT shows a small low-density lesion in the seventh segment of the liver (black arrow),",
+      "concepts": "X-Ray Computed Tomography; Liver",
+      "entities": [
+        {
+          "entity": "Abdominal CT",
+          "type": "Imaging Technique",
+          "description": "A computed tomography scan of the abdomen."
+        },
+        {
+          "entity": "low-density lesion",
+          "type": "Pathological Phenomenon",
+          "description": "An area of abnormal tissue with reduced density compared to surrounding tissue."
+        },
+        {
+          "entity": "liver",
+          "type": "Anatomical Structure",
+          "description": "A major organ in the abdomen responsible for various metabolic functions."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Abdominal CT",
+          "relation": "Identifies",
+          "entity2": "low-density lesion"
+        },
+        {
+          "entity1": "low-density lesion",
+          "relation": "Located in",
+          "entity2": "liver"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 39,
+    "image_name": "ROCOv2_2023_train_000040",
+    "qa_instruct": {
+      "caption": "Chest CT. Chest CT shows an irregular contours mass in anterior mediastinum with mild heterogenetic enhancement (white arrow),",
+      "concepts": "X-Ray Computed Tomography; Irregular; Anterior mediastinum",
+      "entities": [
+        {
+          "entity": "Chest CT",
+          "type": "Imaging Technique",
+          "description": "A computed tomography scan of the chest."
+        },
+        {
+          "entity": "Irregular contours mass",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal mass with an irregular shape."
+        },
+        {
+          "entity": "Anterior mediastinum",
+          "type": "Anatomical Structure",
+          "description": "The front part of the mediastinum, the space in the chest between the lungs."
+        },
+        {
+          "entity": "Heterogenetic enhancement",
+          "type": "Pathological Phenomenon",
+          "description": "Uneven or varied enhancement pattern observed in imaging."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Chest CT",
+          "relation": "Identifies",
+          "entity2": "Irregular contours mass"
+        },
+        {
+          "entity1": "Irregular contours mass",
+          "relation": "Located in",
+          "entity2": "Anterior mediastinum"
+        },
+        {
+          "entity1": "Irregular contours mass",
+          "relation": "Shows",
+          "entity2": "Heterogenetic enhancement"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 40,
+    "image_name": "ROCOv2_2023_train_000041",
+    "qa_instruct": {
+      "caption": "Chest X-ray showing bilateral clavicular hypoplasia.",
+      "concepts": "Plain x-ray; Chest; Postero-Anterior.",
+      "entities": [
+        {
+          "entity": "Chest X-ray",
+          "type": "Imaging Technique",
+          "description": "A radiographic imaging technique used to visualize the chest."
+        },
+        {
+          "entity": "clavicular hypoplasia",
+          "type": "Pathological Phenomenon",
+          "description": "Underdevelopment or incomplete development of the clavicle."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Chest X-ray",
+          "relation": "Identifies",
+          "entity2": "clavicular hypoplasia"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 41,
+    "image_name": "ROCOv2_2023_train_000042",
+    "qa_instruct": {
+      "caption": "A slide from CT abdomen that shows that the patient is very thin with large ascites and very large liver.",
+      "concepts": "X-Ray Computed Tomography; Ascites",
+      "entities": [
+        {
+          "entity": "CT abdomen",
+          "type": "Imaging Technique",
+          "description": "Computed tomography of the abdomen, an imaging technique."
+        },
+        {
+          "entity": "Ascites",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal accumulation of fluid in the abdominal cavity."
+        },
+        {
+          "entity": "liver",
+          "type": "Anatomical Structure",
+          "description": "A large organ in the abdomen."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "CT abdomen",
+          "relation": "Identifies",
+          "entity2": "Ascites"
+        },
+        {
+          "entity1": "CT abdomen",
+          "relation": "Identifies",
+          "entity2": "liver"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 42,
+    "image_name": "ROCOv2_2023_train_000043",
+    "qa_instruct": {
+      "caption": "Sigmoid colon cancer invading to the retroperitoneum at the time of initial diagnosis.",
+      "concepts": "X-Ray Computed Tomography; Retroperitoneal Space",
+      "entities": [
+        {
+          "entity": "Sigmoid colon cancer",
+          "type": "Pathological Phenomenon",
+          "description": "Malignant tumor originating in the sigmoid colon."
+        },
+        {
+          "entity": "Retroperitoneum",
+          "type": "Anatomical Structure",
+          "description": "The anatomical space behind the peritoneum."
+        },
+        {
+          "entity": "X-Ray Computed Tomography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using X-rays to create cross-sectional images."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Sigmoid colon cancer",
+          "relation": "Invades",
+          "entity2": "Retroperitoneum"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 43,
+    "image_name": "ROCOv2_2023_train_000044",
+    "qa_instruct": {
+      "caption": "Retroperitoneal abscess adjacent to the sigmoid colon tumor.",
+      "concepts": "X-Ray Computed Tomography; Retroperitoneal abscess; Sigmoid colon; Neoplasms.",
+      "entities": [
+        {
+          "entity": "Retroperitoneal abscess",
+          "type": "Pathological Phenomenon",
+          "description": "An accumulation of pus in the retroperitoneal space."
+        },
+        {
+          "entity": "Sigmoid colon tumor",
+          "type": "Pathological Phenomenon",
+          "description": "A neoplasm located in the sigmoid colon."
+        },
+        {
+          "entity": "X-Ray Computed Tomography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using X-rays to create cross-sectional images."
+        },
+        {
+          "entity": "Sigmoid colon",
+          "type": "Anatomical Structure",
+          "description": "A part of the large intestine."
+        },
+        {
+          "entity": "Neoplasms",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal growth of tissue."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Retroperitoneal abscess",
+          "relation": "Adjacent to",
+          "entity2": "Sigmoid colon tumor"
+        },
+        {
+          "entity1": "X-Ray Computed Tomography",
+          "relation": "Identifies",
+          "entity2": "Retroperitoneal abscess"
+        },
+        {
+          "entity1": "X-Ray Computed Tomography",
+          "relation": "Identifies",
+          "entity2": "Sigmoid colon tumor"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 44,
+    "image_name": "ROCOv2_2023_train_000045",
+    "qa_instruct": {
+      "caption": "Abnormal air accumulation in the subcutaneous space of the left thigh.",
+      "concepts": "X-Ray Computed Tomography; Structure of left thigh.",
+      "entities": [
+        {
+          "entity": "air accumulation",
+          "type": "Pathological Phenomenon",
+          "description": "The presence of air in an abnormal location."
+        },
+        {
+          "entity": "subcutaneous space",
+          "type": "Anatomical Structure",
+          "description": "The layer of tissue beneath the skin."
+        },
+        {
+          "entity": "left thigh",
+          "type": "Anatomical Structure",
+          "description": "The upper part of the left leg."
+        },
+        {
+          "entity": "X-Ray Computed Tomography",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using X-rays to create detailed images."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "air accumulation",
+          "relation": "Located in",
+          "entity2": "subcutaneous space"
+        },
+        {
+          "entity1": "subcutaneous space",
+          "relation": "Part of",
+          "entity2": "left thigh"
+        },
+        {
+          "entity1": "X-Ray Computed Tomography",
+          "relation": "Identifies",
+          "entity2": "air accumulation"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 45,
+    "image_name": "ROCOv2_2023_train_000046",
+    "qa_instruct": {
+      "caption": "CT of the abdomen showing hepatomegaly",
+      "concepts": "X-Ray Computed Tomography; Abdomen",
+      "entities": [
+        {
+          "entity": "CT",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using X-rays to create detailed images of the body."
+        },
+        {
+          "entity": "abdomen",
+          "type": "Anatomical Structure",
+          "description": "The region of the body between the thorax and the pelvis."
+        },
+        {
+          "entity": "hepatomegaly",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal enlargement of the liver."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "CT",
+          "relation": "Located in",
+          "entity2": "abdomen"
+        },
+        {
+          "entity1": "CT",
+          "relation": "Identifies",
+          "entity2": "hepatomegaly"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 46,
+    "image_name": "ROCOv2_2023_train_000047",
+    "qa_instruct": {
+      "caption": "Abdominal ultrasound showing hepatic parenchymal disease",
+      "concepts": "Ultrasonography; Hepatic; Structure of parenchyma of lung",
+      "entities": [
+        {
+          "entity": "Abdominal ultrasound",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using sound waves to visualize abdominal organs."
+        },
+        {
+          "entity": "Hepatic parenchymal disease",
+          "type": "Pathological Phenomenon",
+          "description": "A disease affecting the functional tissue of the liver."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Abdominal ultrasound",
+          "relation": "Identifies",
+          "entity2": "Hepatic parenchymal disease"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 47,
+    "image_name": "ROCOv2_2023_train_000048",
+    "qa_instruct": {
+      "caption": "Carpentier type 3B: restrictive leaflet motion—systole (closure): ischaemic mitral regurgitation.",
+      "concepts": "Ultrasonography; Ischemic",
+      "entities": [
+        {
+          "entity": "Carpentier type 3B",
+          "type": "Pathological Phenomenon",
+          "description": "A classification of mitral valve dysfunction characterized by restrictive leaflet motion."
+        },
+        {
+          "entity": "restrictive leaflet motion",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal limitation in the movement of the mitral valve leaflets."
+        },
+        {
+          "entity": "systole",
+          "type": "Anatomical Structure",
+          "description": "The phase of the cardiac cycle when the heart muscle contracts."
+        },
+        {
+          "entity": "ischaemic mitral regurgitation",
+          "type": "Disease/Symptom",
+          "description": "Mitral valve regurgitation caused by reduced blood flow to the heart."
+        },
+        {
+          "entity": "Ultrasonography",
+          "type": "Imaging Technique",
+          "description": "An imaging technique using sound waves to visualize internal body structures."
+        },
+        {
+          "entity": "Ischemic",
+          "type": "Pathological Phenomenon",
+          "description": "A condition of reduced blood flow to a tissue or organ."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Carpentier type 3B",
+          "relation": "Characterized by",
+          "entity2": "restrictive leaflet motion"
+        },
+        {
+          "entity1": "restrictive leaflet motion",
+          "relation": "Occurs during",
+          "entity2": "systole"
+        },
+        {
+          "entity1": "restrictive leaflet motion",
+          "relation": "Leads to",
+          "entity2": "ischaemic mitral regurgitation"
+        },
+        {
+          "entity1": "Ultrasonography",
+          "relation": "Used to visualize",
+          "entity2": "ischaemic mitral regurgitation"
+        },
+        {
+          "entity1": "Ischemic",
+          "relation": "Causes",
+          "entity2": "ischaemic mitral regurgitation"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 48,
+    "image_name": "ROCOv2_2023_train_000049",
+    "qa_instruct": {
+      "caption": "FB (cutlery handle) in the DII",
+      "concepts": "Plain x-ray; Abdomen; Postero-Anterior",
+      "entities": [
+        {
+          "entity": "FB (cutlery handle)",
+          "type": "Medical Tool/Device",
+          "description": "A foreign body, specifically a cutlery handle, that is present in the body."
+        },
+        {
+          "entity": "DII",
+          "type": "Anatomical Structure",
+          "description": "Presumably the Duodenum, second part of the small intestine."
+        },
+        {
+          "entity": "Plain x-ray",
+          "type": "Imaging Technique",
+          "description": "A basic radiographic imaging technique."
+        },
+        {
+          "entity": "Abdomen",
+          "type": "Anatomical Structure",
+          "description": "The abdominal region of the body."
+        },
+        {
+          "entity": "Postero-Anterior",
+          "type": "Imaging Technique",
+          "description": "A specific view in radiographic imaging where the x-ray beam passes from posterior to anterior."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "FB (cutlery handle)",
+          "relation": "Located in",
+          "entity2": "DII"
+        },
+        {
+          "entity1": "Plain x-ray",
+          "relation": "Used to image",
+          "entity2": "Abdomen"
+        },
+        {
+          "entity1": "Plain x-ray",
+          "relation": "View is",
+          "entity2": "Postero-Anterior"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 49,
+    "image_name": "ROCOv2_2023_train_000050",
+    "qa_instruct": {
+      "caption": "Brain MRI Flaire image showing hyperintensities in basal ganglias",
+      "concepts": "Magnetic Resonance Imaging; Basal Ganglia",
+      "entities": [
+        {
+          "entity": "Brain MRI Flaire",
+          "type": "Imaging Technique",
+          "description": "A type of magnetic resonance imaging used to visualize brain structures with fluid-attenuated inversion recovery."
+        },
+        {
+          "entity": "Basal ganglias",
+          "type": "Anatomical Structure",
+          "description": "A group of subcortical nuclei in the brain involved in motor control and other functions."
+        },
+        {
+          "entity": "Hyperintensities",
+          "type": "Pathological Phenomenon",
+          "description": "Areas of increased signal intensity on an MRI image, often indicating an abnormality."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Brain MRI Flaire",
+          "relation": "Identifies",
+          "entity2": "Hyperintensities"
+        },
+        {
+          "entity1": "Hyperintensities",
+          "relation": "Located in",
+          "entity2": "Basal ganglias"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 50,
+    "image_name": "ROCOv2_2023_train_000051",
+    "qa_instruct": {
+      "caption": "Abdominal computed tomography shows an enterolith (white arrow) measuring 3 cm in the proximal afferent loop.",
+      "concepts": "X-Ray Computed Tomography",
+      "entities": [
+        {
+          "entity": "Abdominal computed tomography",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using X-rays to visualize the abdomen."
+        },
+        {
+          "entity": "enterolith",
+          "type": "Pathological Phenomenon",
+          "description": "A stone-like mass formed in the intestine."
+        },
+        {
+          "entity": "proximal afferent loop",
+          "type": "Anatomical Structure",
+          "description": "The initial part of the intestinal loop leading towards a surgical site."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Abdominal computed tomography",
+          "relation": "Identifies",
+          "entity2": "enterolith"
+        },
+        {
+          "entity1": "enterolith",
+          "relation": "Located in",
+          "entity2": "proximal afferent loop"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 51,
+    "image_name": "ROCOv2_2023_train_000052",
+    "qa_instruct": {
+      "caption": "Cervical Spine MRISagittal MRI of the cervical spine demonstrated nodular contrast enhancement of the lesion at the cervicomedullary junction.",
+      "concepts": "Magnetic Resonance Imaging; Cervical spine; Nodular (qualifier value).",
+      "entities": [
+        {
+          "entity": "Cervical Spine MRI",
+          "type": "Imaging Technique",
+          "description": "Magnetic Resonance Imaging of the cervical spine."
+        },
+        {
+          "entity": "Cervical spine",
+          "type": "Anatomical Structure",
+          "description": "The portion of the vertebral column located in the neck."
+        },
+        {
+          "entity": "Nodular contrast enhancement",
+          "type": "Pathological Phenomenon",
+          "description": "Abnormal enhancement of a nodular lesion after contrast administration."
+        },
+        {
+          "entity": "lesion",
+          "type": "Pathological Phenomenon",
+          "description": "An area of abnormal tissue."
+        },
+        {
+          "entity": "cervicomedullary junction",
+          "type": "Anatomical Structure",
+          "description": "The region where the cervical spinal cord meets the medulla oblongata."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Cervical Spine MRI",
+          "relation": "Identifies",
+          "entity2": "lesion"
+        },
+        {
+          "entity1": "lesion",
+          "relation": "Located at",
+          "entity2": "cervicomedullary junction"
+        },
+        {
+          "entity1": "lesion",
+          "relation": "Shows",
+          "entity2": "Nodular contrast enhancement"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 52,
+    "image_name": "ROCOv2_2023_train_000053",
+    "qa_instruct": {
+      "caption": "Cervical Spine MRI showing rapid enlargement. Sagittal MRI of the cervical spine demonstrated substantial and rapid enlargement of the contrast enhancing lesion at the cervicomedullary junction.",
+      "concepts": "Magnetic Resonance Imaging; Cervical spine",
+      "entities": [
+        {
+          "entity": "Cervical Spine MRI",
+          "type": "Imaging Technique",
+          "description": "Magnetic Resonance Imaging of the cervical spine."
+        },
+        {
+          "entity": "Cervical spine",
+          "type": "Anatomical Structure",
+          "description": "The region of the spine located in the neck."
+        },
+        {
+          "entity": "contrast enhancing lesion",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal area that shows increased signal intensity after contrast administration."
+        },
+        {
+          "entity": "cervicomedullary junction",
+          "type": "Anatomical Structure",
+          "description": "The area where the cervical spinal cord meets the medulla oblongata."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Cervical Spine MRI",
+          "relation": "Identifies",
+          "entity2": "contrast enhancing lesion"
+        },
+        {
+          "entity1": "contrast enhancing lesion",
+          "relation": "Located at",
+          "entity2": "cervicomedullary junction"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 53,
+    "image_name": "ROCOv2_2023_train_000054",
+    "qa_instruct": {
+      "caption": "A 5.5 cm AAA in close relation with a 17 cm left renal cyst (one out of many).",
+      "concepts": "X-Ray Computed Tomography; Renal cyst",
+      "entities": [
+        {
+          "entity": "AAA",
+          "type": "Pathological Phenomenon",
+          "description": "Abdominal Aortic Aneurysm, an abnormal enlargement of the aorta in the abdomen."
+        },
+        {
+          "entity": "Renal cyst",
+          "type": "Pathological Phenomenon",
+          "description": "A fluid-filled sac that forms in the kidney."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "AAA",
+          "relation": "Located near",
+          "entity2": "Renal cyst"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 54,
+    "image_name": "ROCOv2_2023_train_000055",
+    "qa_instruct": {
+      "caption": "Left ureteral catheter in close proximity to the aortic bifurcation.",
+      "concepts": "X-Ray Computed Tomography; Structure of aortic bifurcation.",
+      "entities": [
+        {
+          "entity": "Left ureteral catheter",
+          "type": "Medical Tool/Device",
+          "description": "A tube inserted into the left ureter."
+        },
+        {
+          "entity": "aortic bifurcation",
+          "type": "Anatomical Structure",
+          "description": "The point where the aorta divides into the iliac arteries."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Left ureteral catheter",
+          "relation": "Located near",
+          "entity2": "aortic bifurcation"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 55,
+    "image_name": "ROCOv2_2023_train_000056",
+    "qa_instruct": {
+      "caption": "Radiological image (axial cuts)Axial cut, soft tissue window contrast computed tomography of the neck showing a heterogeneously enhancing lesion of both sides of the supraglottis extending to the right pyriform sinus (lower arrow) invading the thyroid cartilage (upper arrow).",
+      "concepts": "X-Ray Computed Tomography; soft tissue; Neck; Supraglottis (body part); Structure of piriform recess; Thyroid cartilage structure.",
+      "entities": [
+        {
+          "entity": "contrast computed tomography",
+          "type": "Imaging Technique",
+          "description": "A CT scan using contrast to enhance the visibility of structures."
+        },
+        {
+          "entity": "neck",
+          "type": "Anatomical Structure",
+          "description": "The region of the body connecting the head and torso."
+        },
+        {
+          "entity": "heterogeneously enhancing lesion",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal area showing varied contrast enhancement, indicating a lesion."
+        },
+        {
+          "entity": "supraglottis",
+          "type": "Anatomical Structure",
+          "description": "The region of the larynx above the vocal cords."
+        },
+        {
+          "entity": "pyriform sinus",
+          "type": "Anatomical Structure",
+          "description": "A recess in the laryngopharynx."
+        },
+        {
+          "entity": "thyroid cartilage",
+          "type": "Anatomical Structure",
+          "description": "A cartilage structure in the larynx."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "contrast computed tomography",
+          "relation": "Identifies",
+          "entity2": "heterogeneously enhancing lesion"
+        },
+        {
+          "entity1": "heterogeneously enhancing lesion",
+          "relation": "Located in",
+          "entity2": "supraglottis"
+        },
+        {
+          "entity1": "heterogeneously enhancing lesion",
+          "relation": "Extends to",
+          "entity2": "pyriform sinus"
+        },
+        {
+          "entity1": "heterogeneously enhancing lesion",
+          "relation": "Invades",
+          "entity2": "thyroid cartilage"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 56,
+    "image_name": "ROCOv2_2023_train_000057",
+    "qa_instruct": {
+      "caption": "Chest radiograph (postero-anterior view) with calcification in the right heart border (arrows).",
+      "concepts": "Plain x-ray; Chest; Postero-Anterior; Calcinosis; Cardiac border.",
+      "entities": [
+        {
+          "entity": "Chest radiograph",
+          "type": "Imaging Technique",
+          "description": "An X-ray imaging technique used to visualize the chest."
+        },
+        {
+          "entity": "Calcification",
+          "type": "Pathological Phenomenon",
+          "description": "The deposition of calcium salts in body tissues."
+        },
+        {
+          "entity": "right heart border",
+          "type": "Anatomical Structure",
+          "description": "The right edge of the heart as seen in imaging."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Chest radiograph",
+          "relation": "Identifies",
+          "entity2": "Calcification"
+        },
+        {
+          "entity1": "Calcification",
+          "relation": "Located in",
+          "entity2": "right heart border"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 57,
+    "image_name": "ROCOv2_2023_train_000058",
+    "qa_instruct": {
+      "caption": "Chest computed tomography (axial view) with cystic lesion in the pericardium (arrows).",
+      "concepts": "X-Ray Computed Tomography; Chest; Cystic; Pericardial sac structure.",
+      "entities": [
+        {
+          "entity": "Chest computed tomography",
+          "type": "Imaging Technique",
+          "description": "A diagnostic imaging technique using X-rays to create detailed images of the chest."
+        },
+        {
+          "entity": "Cystic lesion",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal fluid-filled sac or cavity."
+        },
+        {
+          "entity": "Pericardium",
+          "type": "Anatomical Structure",
+          "description": "The sac surrounding the heart."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Chest computed tomography",
+          "relation": "Identifies",
+          "entity2": "Cystic lesion"
+        },
+        {
+          "entity1": "Cystic lesion",
+          "relation": "Located in",
+          "entity2": "Pericardium"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 58,
+    "image_name": "ROCOv2_2023_train_000059",
+    "qa_instruct": {
+      "caption": "Transthoracic 4 chamber echocardiogram poorly defined pericardial mass overlying right atrial border (arrow) [18]",
+      "concepts": "Ultrasonography; Pericardial body location; Heart Atrium",
+      "entities": [
+        {
+          "entity": "Transthoracic 4 chamber echocardiogram",
+          "type": "Imaging Technique",
+          "description": "An ultrasound imaging technique used to visualize the heart's four chambers through the chest."
+        },
+        {
+          "entity": "pericardial mass",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal growth or mass located in the pericardium."
+        },
+        {
+          "entity": "right atrial border",
+          "type": "Anatomical Structure",
+          "description": "The boundary of the right atrium of the heart."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Transthoracic 4 chamber echocardiogram",
+          "relation": "Identifies",
+          "entity2": "pericardial mass"
+        },
+        {
+          "entity1": "pericardial mass",
+          "relation": "Overlies",
+          "entity2": "right atrial border"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 59,
+    "image_name": "ROCOv2_2023_train_000060",
+    "qa_instruct": {
+      "caption": "Time-of-flight MRA Obtained One Month After Initial ImagingTime-of-flight MR angiogram (MRA) one month after the patient was initially noted to be unresponsive showed absence of flow-related signal in the circle of Willis and branch arteries bilaterally. Red arrowheads indicate the distal internal carotid arteries with a lack of intracranial arterial flow.",
+      "concepts": "Magnetic Resonance Imaging; Circle of Willis; Pulmonary artery structure; Internal carotid artery structure; Intracranial",
+      "entities": [
+        {
+          "entity": "Time-of-flight MRA",
+          "type": "Imaging Technique",
+          "description": "A type of magnetic resonance angiography used to visualize blood vessels."
+        },
+        {
+          "entity": "Circle of Willis",
+          "type": "Anatomical Structure",
+          "description": "A network of arteries at the base of the brain."
+        },
+        {
+          "entity": "branch arteries",
+          "type": "Anatomical Structure",
+          "description": "Arteries that branch off from the main arteries."
+        },
+        {
+          "entity": "distal internal carotid arteries",
+          "type": "Anatomical Structure",
+          "description": "The terminal portions of the internal carotid arteries."
+        },
+        {
+          "entity": "intracranial arterial flow",
+          "type": "Pathological Phenomenon",
+          "description": "Blood flow within the arteries of the brain."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Time-of-flight MRA",
+          "relation": "Visualizes",
+          "entity2": "Circle of Willis"
+        },
+        {
+          "entity1": "Time-of-flight MRA",
+          "relation": "Visualizes",
+          "entity2": "branch arteries"
+        },
+        {
+          "entity1": "Time-of-flight MRA",
+          "relation": "Visualizes",
+          "entity2": "distal internal carotid arteries"
+        },
+        {
+          "entity1": "distal internal carotid arteries",
+          "relation": "Shows",
+          "entity2": "intracranial arterial flow"
+        },
+        {
+          "entity1": "Circle of Willis",
+          "relation": "Shows",
+          "entity2": "absence of flow-related signal"
+        },
+        {
+          "entity1": "branch arteries",
+          "relation": "Shows",
+          "entity2": "absence of flow-related signal"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 60,
+    "image_name": "ROCOv2_2023_train_000061",
+    "qa_instruct": {
+      "caption": "Transoesophageal echocardiography showing mid esophageal 20° view. Left atrium tumor. RA right atrium, LA left atrium, ",
+      "concepts": "Ultrasonography; Left atrial structure; Tumor tissue sample; Entire right atrium; Entire left atrium.",
+      "entities": [
+        {
+          "entity": "Transoesophageal echocardiography",
+          "type": "Imaging Technique",
+          "description": "An ultrasound technique where the probe is inserted into the esophagus to visualize the heart."
+        },
+        {
+          "entity": "Left atrium",
+          "type": "Anatomical Structure",
+          "description": "One of the four chambers of the heart, located on the left side."
+        },
+        {
+          "entity": "Tumor",
+          "type": "Pathological Phenomenon",
+          "description": "An abnormal mass of tissue."
+        },
+        {
+          "entity": "Right atrium",
+          "type": "Anatomical Structure",
+          "description": "One of the four chambers of the heart, located on the right side."
+        }
+      ],
+      "relations": [
+        {
+          "entity1": "Transoesophageal echocardiography",
+          "relation": "Visualizes",
+          "entity2": "Left atrium"
+        },
+        {
+          "entity1": "Left atrium",
+          "relation": "Contains",
+          "entity2": "Tumor"
+        }
+      ]
+    }
+  }
+]
